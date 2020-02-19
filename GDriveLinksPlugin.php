@@ -18,12 +18,6 @@
     define('DEFAULT_EMBED_WIDTH_VALUE', '100%');
     define('DEFAULT_EMBED_HEIGHT_VALUE', '480');
     
-// Item Type Metadata : URL field
-// Have UI parse the URL provided to see if it is a link or embed
-// Include config checkbox to set link to launch in new window or not
-// sample embed URL: https://drive.google.com/file/d/1iGzhHdMM4w8hJljNnTijgXHCnAQJH5AS/preview
-// sample link URL: https://drive.google.com/file/d/1iGzhHdMM4w8hJljNnTijgXHCnAQJH5AS/view
-    
 class GDriveLinksPlugin extends Omeka_Plugin_AbstractPlugin
 {
     // Define Hooks
