@@ -31,13 +31,12 @@ class GDriveLinksPlugin extends Omeka_Plugin_AbstractPlugin
     protected $_hooks = array(
         'install',
         'uninstall',
-	    'define_routes',
-	    'config',
+	'define_routes',
+	'config',
         'config_form',
 	);
 	
-	
-	public function hookInstall()
+    public function hookInstall()
     {
         set_option('default_link_target_value', DEFAULT_LINK_TARGET_VALUE);
         set_option('default_link_text_value', DEFAULT_LINK_TEXT_VALUE);
@@ -58,7 +57,7 @@ class GDriveLinksPlugin extends Omeka_Plugin_AbstractPlugin
         $router = $args['router'];
     }
     
-       public function hookConfigForm() 
+    public function hookConfigForm() 
     {
         include 'config_form.php';
     }
@@ -99,9 +98,10 @@ class GDriveLinksPlugin extends Omeka_Plugin_AbstractPlugin
         } else {
            return $text;
         }
-    }
+    
+	}
         
-}
+     }
     
 }
 
