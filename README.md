@@ -1,6 +1,6 @@
 # GDriveLinks
 
-## Omeka Item Type Metadat Field
+## Omeka Item Type Metadata Field
 
 URL
 
