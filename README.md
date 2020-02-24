@@ -14,7 +14,7 @@ For a hyperlink: (https://drive.google.com/file/d/<google_drive_file_id>/view)
 
 The following settings are configurable for this plugin.
 
-**Default Link Target Value**: This can be set to either *_blank* or *_self*
+**Default Link Behavior**: This checkbox controls whether or not hyperlinks or embedded object link within the current tab or spawn a new one.
 
 **Default Link Text Value**: This can be set to any desired text string.
 
